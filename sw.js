@@ -1,7 +1,7 @@
 /* The production build replaces these two values with the release ID and asset list. */
-const cacheName = 'hiyori-shell-7312c3f274561bf2';
+const cacheName = 'hiyori-shell-81ee27fd90f19071';
 const shell = new URL('./', self.registration.scope).href;
-const assets = ["assets/index-naVlk-E2.css","assets/decimal-CaUHonIL.js","assets/vendor-BZ9F2_8S.js","assets/index-BDXH2gx-.js","manifest.webmanifest","icon.svg","icon-192.png","icon-512.png","apple-touch-icon.png"].map(path => new URL(path, shell).href);
+const assets = ["assets/index-ByFJXuSf.css","assets/decimal-CaUHonIL.js","assets/vendor-BZ9F2_8S.js","assets/index-wKM3T8iQ.js","manifest.webmanifest","icon.svg","icon-192.png","icon-512.png","apple-touch-icon.png"].map(path => new URL(path, shell).href);
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(cacheName);
